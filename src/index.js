@@ -5,8 +5,8 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import Notiflix from 'notiflix';
 import searchQuery from './search-query';
 import markup from './markup-card';
-let page = 1;
 const perPage = 40;
+let page = 1;
 let photoCard = new SimpleLightbox(".photo-card a", {
     captionsData: "alt",
     captionPosition: "bottom",
